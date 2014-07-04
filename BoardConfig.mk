@@ -3,7 +3,8 @@ include device/sony/blue-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/mint/include
 
-TARGET_KERNEL_CONFIG := cm_blue_mint_defconfig
+#TARGET_KERNEL_CONFIG := cm_blue_mint_defconfig
+TARGET_PREBUILT_KERNEL := device/sony/mint/prebuilt/boguskernel
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 18
